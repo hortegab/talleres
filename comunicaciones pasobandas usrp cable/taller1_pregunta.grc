@@ -422,6 +422,33 @@
     </param>
     <param>
       <key>_coordinate</key>
+      <value>(776, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>Pe</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>1./Rv</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
       <value>(112, 764)</value>
     </param>
     <param>
@@ -615,6 +642,33 @@
     <param>
       <key>value</key>
       <value>31.25e3</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(272, 68)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>Rv</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>10000</value>
     </param>
   </block>
   <block>
