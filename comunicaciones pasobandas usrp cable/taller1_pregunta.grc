@@ -101,7 +101,34 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(480, 572)</value>
+      <value>(184, 68)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>Ar</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>0.4</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(440, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -128,7 +155,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(312, 572)</value>
+      <value>(272, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -141,6 +168,87 @@
     <param>
       <key>value</key>
       <value>int(math.log(M,2))</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(200, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>Es</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>Potencia/Rs</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(600, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>EsNo</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>Es/No</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(680, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>EsNo_dB</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>10*math.log10(EsNo)</value>
     </param>
   </block>
   <block>
@@ -182,7 +290,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 572)</value>
+      <value>(192, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -260,7 +368,88 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(392, 572)</value>
+      <value>(512, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>No</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>P_ruido/samp_rate</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(416, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>P_ruido</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>VRMS_Ruido*VRMS_Ruido</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(112, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>Potencia</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>VRMS_R1a*VRMS_R1a</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(352, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -291,7 +480,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(192, 724)</value>
+      <value>(192, 932)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -354,7 +543,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(328, 724)</value>
+      <value>(328, 932)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -440,7 +629,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(144, 572)</value>
+      <value>(104, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -480,6 +669,60 @@
     <param>
       <key>value</key>
       <value>4e-6</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(8, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>VRMS_R1a</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>0.7</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(312, 764)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>VRMS_Ruido</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>Ar</value>
     </param>
   </block>
   <block>
@@ -575,7 +818,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(592, 572)</value>
+      <value>(552, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -610,7 +853,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(488, 740)</value>
+      <value>(488, 948)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -649,7 +892,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(40, 572)</value>
+      <value>(0, 620)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -708,10 +951,72 @@
     </param>
   </block>
   <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(0, 572)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>SS</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>PREGUNTAS DE NIVEL 1</value>
+    </param>
+  </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(8, 700)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>SS_0</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>PREGUNTAS AVANZADAS</value>
+    </param>
+  </block>
+  <block>
     <key>analog_noise_source_x</key>
     <param>
       <key>amp</key>
-      <value>0.4</value>
+      <value>Ar</value>
     </param>
     <param>
       <key>alias</key>
@@ -849,7 +1154,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(424, 1100)</value>
+      <value>(424, 1332)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -904,7 +1209,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(496, 1340)</value>
+      <value>(400, 1484)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1394,7 +1699,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(224, 1340)</value>
+      <value>(184, 1484)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1445,7 +1750,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(0, 700)</value>
+      <value>(0, 932)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1665,7 +1970,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(392, 928)</value>
+      <value>(392, 1160)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2020,7 +2325,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(408, 1012)</value>
+      <value>(408, 1244)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2387,7 +2692,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(736, 1332)</value>
+      <value>(576, 1476)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2919,7 +3224,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 876)</value>
+      <value>(16, 1108)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2946,7 +3251,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 948)</value>
+      <value>(16, 1180)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2973,7 +3278,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(56, 1348)</value>
+      <value>(16, 1492)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3000,7 +3305,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(176, 1140)</value>
+      <value>(176, 1372)</value>
     </param>
     <param>
       <key>_rotation</key>
